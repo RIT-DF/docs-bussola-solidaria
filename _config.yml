@@ -4,10 +4,11 @@ description: >-
   com WooCommerce, emita recibos, gerencie doadores e cumpra a LGPD.
 lang: pt-BR
 
-# Tema remoto — o GitHub Pages builda sozinho (nada a compilar localmente).
-remote_theme: just-the-docs/just-the-docs
+# Tema como gem (buildado via GitHub Actions — ver .github/workflows/pages.yml).
+# Não usar remote_theme: o Pages clássico (Jekyll 3.9) não builda o just-the-docs
+# moderno (requer Jekyll 4). Por isso o deploy é por Actions + Gemfile.
+theme: just-the-docs
 plugins:
-  - jekyll-remote-theme
   - jekyll-seo-tag
 
 # Busca client-side do just-the-docs.
