@@ -1,25 +1,46 @@
-# Bússola Solidária — Manual do Usuário
+---
+title: Início
+nav_order: 1
+description: Manual do usuário do plugin Bússola Solidária.
+permalink: /
+---
 
-> Manual público do plugin **Bússola Solidária**, publicado em GitHub Pages a
-> partir do repositório [`RIT-DF/docs-bussola-solidaria`](https://github.com/RIT-DF/docs-bussola-solidaria)
-> via `bin/publish-manual.sh`.
+# Manual do Bússola Solidária
+{: .fs-9 }
 
-Este diretório (`docs-publico/`) é a **fonte** do manual externo. Edite aqui e
-publique com:
+Capte doações para a sua organização com a robustez do WooCommerce, mas na
+linguagem do terceiro setor: **doadores** em vez de clientes, **doações** em vez
+de pedidos, **recibos** e **declaração anual** automáticos, e LGPD por desenho.
+{: .fs-6 .fw-300 }
 
-```bash
-bin/publish-manual.sh
-```
+[Começar agora](./admin/primeiros-passos){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Ver como doar](./doador/fazer-uma-doacao){: .btn .fs-5 .mb-4 .mb-md-0 }
 
-## Estrutura
+---
 
-O conteúdo do manual final (organizado por papel e por tarefa) é montado pela
-skill `user-manual` em `docs/USER-DOCS/` e espelhado para cá. Enquanto o manual
-não é gerado, este `index.md` serve de placeholder para o primeiro publish.
+## Este manual está organizado por quem você é
 
-## Próximos passos
+### 🏛️ Administrador(a) da OSC
+Você instala, configura e opera o plugin no painel do WordPress: recebe doações,
+emite recibos, gerencia doadores e presta contas.
 
-- [ ] Rodar a skill `user-manual` para bootstrap das páginas por papel/tarefa.
-- [ ] Conectar as capturas de tela (roteiro de prints).
-- [ ] Configurar o GitHub Pages do repo `RIT-DF/docs-bussola-solidaria`
-      (Settings → Pages → Deploy from branch: `main`).
+[Trilha do administrador](./admin){: .btn .btn-outline }
+
+### 💛 Doador
+Você quer doar, acompanhar suas doações e baixar seus recibos — **sem criar
+conta**: o acesso ao seu painel é por um link enviado ao seu e-mail (magic link).
+
+[Trilha do doador](./doador){: .btn .btn-outline }
+
+---
+
+## Atalhos
+
+- [O que há de novo](./novidades) — novidades das últimas versões.
+- [Dúvidas frequentes](./faq) — respostas rápidas.
+- [Política de Privacidade](https://rit.org.br) · [Termos de Uso](https://rit.org.br) — da sua OSC.
+
+{: .note }
+> Este manual descreve o que você **vê na tela**. Se algo estiver diferente na
+> sua instalação, pode ser uma versão anterior do plugin — confira em
+> **Bússola Solidária → Sobre** a versão instalada.
